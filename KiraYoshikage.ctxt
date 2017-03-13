@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=hp\ atk
+comment0.target=KiraYoshikage(int,\ int)
+comment1.params=dmg
+comment1.target=void\ takeDamage(int)
+comment2.params=target
+comment2.target=void\ attack(Enemy)
+comment3.params=
+comment3.target=int\ getLife()
+numComments=4

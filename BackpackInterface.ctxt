@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=x
+comment0.target=boolean\ storeItem(Item)
+comment0.text=\r\n\ Puts\ an\ item\ into\ the\ backpack\r\n\ \r\n\ @param\ \ x\ \ \ \ The\ item\ to\ be\ stored\r\n\ @return\ \ \ \ \ \ \ \ true\ if\ added,\ false\ if\ not.\r\n
+comment1.params=
+comment1.target=int\ countItems()
+comment1.text=\r\n\ Counts\ the\ number\ of\ items\ in\ the\ backpack\r\n\ \r\n\ \r\n\ @return\ \ \ \ \ \ \ \ The\ number\ of\ items\ in\ the\ backpack\r\n
+numComments=2

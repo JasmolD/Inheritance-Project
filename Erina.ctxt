@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=hp
+comment0.target=Erina(int)
+comment1.params=dmg
+comment1.target=void\ takeDamage(int)
+comment2.params=
+comment2.target=int\ getLife()
+comment3.params=target\ atk
+comment3.target=void\ firstLove(JoJo,\ int)
+numComments=4

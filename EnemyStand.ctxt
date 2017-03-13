@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=owner\ wpn
+comment0.target=EnemyStand(Character,\ Weapon)
+comment1.params=hp
+comment1.target=void\ takeDamage(int)
+numComments=2

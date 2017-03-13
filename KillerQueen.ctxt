@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=owner\ wpn
+comment0.target=KillerQueen(KiraYoshikage,\ Weapon)
+comment1.params=hp
+comment1.target=void\ takeDamage(int)
+comment2.params=target\ hp
+comment2.target=void\ raiseHealth(Villains,\ int)
+comment3.params=target
+comment3.target=void\ SheerHeartAttack(Villains)
+comment4.params=target
+comment4.target=void\ attack(Character)
+numComments=5

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=owner\ life
+comment0.target=RifleRounds(JojoStandUsers,\ int)
+comment1.params=
+comment1.target=boolean\ parry()
+comment2.params=
+comment2.target=java.util.ArrayList\ getStats()
+comment3.params=dmg
+comment3.target=void\ takeDamage(int)
+comment4.params=
+comment4.target=boolean\ isBroken()
+comment5.params=
+comment5.target=int\ attack()
+numComments=6

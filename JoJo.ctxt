@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=hp\ attack
+comment0.target=JoJo(int,\ int)
+comment1.params=
+comment1.target=int\ getAttackValue()
+comment2.params=atk
+comment2.target=void\ gainAttack(int)
+numComments=3

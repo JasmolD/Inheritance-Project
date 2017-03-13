@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=hp
+comment0.target=Okuyasu(int)
+comment1.params=dmg
+comment1.target=void\ takeDamage(int)
+comment2.params=target
+comment2.target=void\ attack(Enemy)
+comment3.params=
+comment3.target=int\ getLife()
+comment4.params=target\ atk
+comment4.target=void\ raiseAttack(JojoStandUsers,\ int)
+comment5.params=target
+comment5.target=void\ theHand(Enemy)
+numComments=6

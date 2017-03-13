@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=life1\ dmg
+comment0.target=Weapon(int,\ int)
+comment1.params=
+comment1.target=int\ getLife()
+comment2.params=dmg
+comment2.target=void\ takeDamage(int)
+comment3.params=
+comment3.target=int\ getAttackValue()
+comment4.params=
+comment4.target=boolean\ parry()
+numComments=5

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=hitpoints\ attack
+comment0.target=RedHotChiliPepper(int,\ int)
+comment1.params=dmg
+comment1.target=void\ takeDamage(int)
+comment2.params=target
+comment2.target=void\ attack(Enemy)
+comment3.params=dmg
+comment3.target=void\ electricPowwa(int)
+comment4.params=
+comment4.target=int\ getLife()
+numComments=5

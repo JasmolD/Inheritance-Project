@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Kars()
+comment1.params=dmg
+comment1.target=void\ takeDamage(int)
+comment2.params=target
+comment2.target=void\ attack(Enemy)
+comment3.params=target\ hp
+comment3.target=void\ raiseHealth(Kars,\ int)
+comment4.params=target\ hp
+comment4.target=void\ ImmortalBody(ArakiNoJishin,\ int)
+comment5.params=
+comment5.target=int\ getLife()
+numComments=6

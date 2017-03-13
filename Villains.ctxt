@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=hp\ attack
+comment0.target=Villains(int,\ int)
+comment1.params=atk
+comment1.target=void\ gainAttack(int)
+comment2.params=hp
+comment2.target=void\ gainHealth(int)
+numComments=3

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=owner\ wpn
+comment0.target=ZaStand(JojoStandUsers,\ Weapon)
+comment1.params=hp
+comment1.target=void\ takeDamage(int)
+comment2.params=target
+comment2.target=void\ attack(Enemy)
+numComments=3

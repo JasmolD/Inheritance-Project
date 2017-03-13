@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ attack()
+comment0.text=\r\n\ Attacks\ an\ enemy\ for\ an\ amount\r\n\ \r\n\ \r\n\ @return\ \ \ \ \ \ \ \ Returns\ amount\ of\ damage\ successfully\ done\ to\ the\ opponent\ \r\n
+comment1.params=
+comment1.target=boolean\ parry()
+comment1.text=\r\n\ Parry\ Attack\ Method\r\n\ \r\n\ @return\ \ \ \ \ \ \ \ True\ if\ the\ attack\ was\ parried.\ \r\n
+numComments=2

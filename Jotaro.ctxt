@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=hp\ atk
+comment0.target=Jotaro(int,\ int)
+comment1.params=dmg
+comment1.target=void\ takeDamage(int)
+comment2.params=target
+comment2.target=void\ attack(Character)
+comment3.params=
+comment3.target=int\ getLife()
+comment4.params=
+comment4.target=int\ getAttackValue()
+numComments=5
