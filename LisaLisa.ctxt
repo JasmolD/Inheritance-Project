@@ -1,5 +1,5 @@
 #BlueJ class context
-comment0.params=hp
+comment0.params=hitpoints
 comment0.target=LisaLisa(int)
 comment1.params=dmg
 comment1.target=void\ takeDamage(int)

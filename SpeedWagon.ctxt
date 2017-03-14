@@ -9,4 +9,6 @@ comment3.params=
 comment3.target=int\ getLife()
 comment4.params=target\ hp
 comment4.target=void\ raiseHealth(ArakiNoJishin,\ int)
-numComments=5
+comment5.params=target\ hp
+comment5.target=void\ allyForever(JoJo,\ int)
+numComments=6

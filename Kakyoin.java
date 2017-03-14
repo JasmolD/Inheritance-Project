@@ -38,4 +38,9 @@ public class Kakyoin extends JoBros
         target.gainAttack(60);
     }
     
+    public void emeraldSplash()
+    {
+        
+    }
+    
 }

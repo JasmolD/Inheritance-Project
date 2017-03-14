@@ -8,10 +8,12 @@
 public class CaesarZeppeli extends JoBros
 {
     int damage;
-    public CaesarZeppeli(int hp)
+    int hp;
+    public CaesarZeppeli(int hitpoints)
     {
-        super(hp);//sends hp to the JoBros class
-        //damage = dmg;
+        super(hitpoints);//sends hp to the JoBros class
+        hp= hitpoints;
+        hp=2000;
     }
 
     public void takeDamage(int dmg)
@@ -25,7 +27,6 @@ public class CaesarZeppeli extends JoBros
     {
         System.out.println("Bubble Cutter!!!");
         target.takeDamage(200);
-        
     }
     
     public int getLife()
@@ -38,4 +39,19 @@ public class CaesarZeppeli extends JoBros
         target.gainAttack(atk);
     }
     
+    public void lastHamon(JoJo target)
+    {
+        if(this.getHitpoints()>200)
+        {
+            System.out.println("Caeser is still able to fight.");
+        }
+        else
+        {
+            target.gainHealth(500);
+            target.gainAttack(250);
+            hp=0;
+            System.out.println("Caesar has given you the last of his life energy, he shall now go onto a better place.");
+            System.out.println("Caesar is dead:" + super.isDead());
+        }
+    }
 }

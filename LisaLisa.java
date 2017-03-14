@@ -8,10 +8,13 @@
 public class LisaLisa extends JoBros
 {
     int damage;
-    public LisaLisa(int hp)
+    int hp;
+    public LisaLisa(int hitpoints)
     {
-        super(hp);//sends hp to the JoBros class
-        //damage = dmg;
+        super(hitpoints);//sends hp to the JoBros class
+        hp = hitpoints;
+        hp = 2100;
+        damage= 230;
     }
 
     public void takeDamage(int dmg)
@@ -20,21 +23,30 @@ public class LisaLisa extends JoBros
         super.takeDamage(dmg);
         System.out.println("Her remaining health is: " + this.getHitpoints());
     }
-    
+
     public int getLife()
     {
         return this.getHitpoints();
     }
-    
+
     public void attack(Enemy target)
     {
         System.out.println("Snake Muffler!!!");
-        target.takeDamage(230);
+        target.takeDamage(damage);
     }
-    
+
     public void familyBonds(JoJo target, int atk)
     {
-        target.gainAttack(150);
-        target.gainHealth(250);
+        if(this.getHitpoints()>300)
+        {
+            target.gainAttack(100);
+            target.gainHealth(200);
+            hp-=150;
+            damage-=20;
+        }
+        else
+        {
+            System.out.println("Lisa Lisa isn't able to expendany further energy.");
+        }
     }
 }
