@@ -9,4 +9,6 @@ comment3.params=
 comment3.target=int\ getLife()
 comment4.params=target\ atk
 comment4.target=void\ raiseAttack(JojoStandUsers,\ int)
-numComments=5
+comment5.params=target
+comment5.target=void\ emeraldSplash(Enemy)
+numComments=6

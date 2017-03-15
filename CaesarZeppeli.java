@@ -43,7 +43,7 @@ public class CaesarZeppeli extends JoBros
     {
         if(this.getHitpoints()>200)
         {
-            System.out.println("Caeser is still able to fight.");
+            System.out.println("Caesar is still able to fight.");
         }
         else
         {

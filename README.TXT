@@ -12,4 +12,4 @@ AUTHORS:
 USER INSTRUCTIONS:
 
 
-Work on Kakyoin emerald splash method
+Work on Jotaro Star Platinum method

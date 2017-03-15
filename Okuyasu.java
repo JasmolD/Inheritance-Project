@@ -43,13 +43,13 @@ public class Okuyasu extends JoBros
     public void theHand(Enemy target)
     {
         int num = (int)(Math.random()*100+1);
-        if(num>=90)
+        if(num>=92)
         {
             target.takeDamage(target.getHitpoints()/2);
         }
         else
         {
-            hp-=100;
+            hp-=200;
         }
     }
 }

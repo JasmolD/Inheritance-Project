@@ -11,7 +11,7 @@ public class Kakyoin extends JoBros
     public Kakyoin(int hp)
     {
         super(hp);//sends hp to the JoBros class
-        //damage = dmg;
+        damage = 222;
     }
 
     public void takeDamage(int dmg)
@@ -24,7 +24,7 @@ public class Kakyoin extends JoBros
     public void attack(Enemy target)
     {
         System.out.println("Go Heirophant Green!!");
-        target.takeDamage(222);
+        target.takeDamage(damage);
         
     }
     
@@ -38,9 +38,16 @@ public class Kakyoin extends JoBros
         target.gainAttack(60);
     }
     
-    public void emeraldSplash()
+    public void emeraldSplash(Enemy target)
     {
-        
+        int num = (int)(Math.random()*10+1);
+        for (int i=0; i< num/2; i++)
+        {
+            System.out.println("Hierophant Green uses emerald splash");
+            target.takeDamage(damage/2);
+            System.out.println("Hierophant Green unleashes another wave of emerald spash at the energy");
+            System.out.println("The enemy's remaning health is: " + target.getHitpoints());
+        }
+        System.out.println("Emerald splash has ended");
     }
-    
 }

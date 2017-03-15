@@ -5,17 +5,8 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-//import java.awt.event.*;
-//import javax.swing.*;
-//import sun.audio.*;
-//import javafx.scene.media.Media;
-//import javafx.scene.media.MediaPlayer;
-/*import java.awt.Desktop;
-import java.io.file;
-import java.io.IOException;
-import java.util.*;*/
 public class Jotaro extends JojoStandUsers
-{   // instance variables - replace the example below with your own
+{
     int damage;
     public Jotaro(int hp, int atk)
     {
@@ -35,25 +26,7 @@ public class Jotaro extends JojoStandUsers
     {
         System.out.println("Go Star Platinum");
         System.out.println("ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA!!!!!!");
-        /*AudioPlayer MGP = AudioPlayer.player;
-        AudioStream BGM;
-        AudioData MD;
-        try{
-            BGM= new AudioStream(new FileInputStream("Ora.wav"));
-            MD= BGM.getData();
-            loop = new ContinuousAudioDataStream(MD);
-        }catch (IOException error)
-        {
-            System.out.println("File not found");
-        }
-        MGP.start(Loop);*/
-        
-        /*String bip = "bip.mp3";
-        Media hit = new Media(new File(bip).toURI().toString());
-        AudioPlayer mediaPlayer = new MediaPlayer(hit);
-        mediaPlayer.play();*/
         target.takeDamage(damage);
-
     }
 
     public int getLife()
@@ -64,5 +37,12 @@ public class Jotaro extends JojoStandUsers
     public int getAttackValue()
     {
         return damage;
+    }
+    
+    public void starPlatinum()
+    {
+        
+        
+        System.out.println("ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA-ORA!!!!!!");
     }
 }

@@ -7,7 +7,7 @@
  */
 public class Polnareff extends JoBros
 {
-    int damage;
+    int damage = 250;
     public Polnareff(int hp)
     {
         super(hp);//sends hp to the JoBros class
@@ -24,7 +24,7 @@ public class Polnareff extends JoBros
     public void attack(Enemy target)
     {
         System.out.println("Go Silver Chariot!!");
-        target.takeDamage(250);
+        target.takeDamage(damage);
     }
 
     public int getLife()
@@ -32,8 +32,22 @@ public class Polnareff extends JoBros
         return this.getHitpoints();
     }
 
-    public void raiseAttack(JojoStandUsers target, int atk)
+    public void raiseJojoAttack(JojoStandUsers target, int atk)
     {
         target.gainAttack(50);
+    }
+    
+    public void lastShot(Enemy target)
+    {
+        if(this.getHitpoints()>200)
+        {
+            System.out.println("Polnareff doesn't need to resort to his last shot.");
+        }
+        else
+        {
+            target.takeDamage(damage*3);
+            System.out.println("Polnareff has shot his sword and is no longer capable of attacking.");
+            damage=0;
+        }
     }
 }
