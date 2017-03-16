@@ -39,4 +39,11 @@ public class Josuke extends JojoStandUsers
     {
         return this.getHitpoints();
     }
+    
+    public void crazyDiamond(JoBros target, ZaStand target2)
+    {
+        System.out.println("Go Crazy Diamond");
+        System.out.println("DO-RARARARARARARARARARARARARARARARARARA DORA");
+        target.gainHealth(target2.getDmg());
+    }
 }

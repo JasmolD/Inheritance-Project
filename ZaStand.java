@@ -16,6 +16,7 @@ public class ZaStand extends ArakiNoJishin
         super(1);
         this.owner = owner;
         weapon = wpn;
+        dmg= weapon.getAttackValue() + owner.getAttackValue();
     }
 
     public void takeDamage(int hp){
@@ -24,6 +25,16 @@ public class ZaStand extends ArakiNoJishin
 
     public void attack(Enemy target)
     {
-        target.takeDamage(weapon.getAttackValue() + owner.getAttackValue());
+        target.takeDamage(dmg);
+    }
+    
+    public int getDmg()
+    {
+        return dmg;
+    }
+    
+    public void switchWeapon()
+    {
+        
     }
 }

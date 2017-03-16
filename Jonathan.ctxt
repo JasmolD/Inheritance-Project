@@ -9,4 +9,6 @@ comment3.params=
 comment3.target=int\ getLife()
 comment4.params=
 comment4.target=int\ getAttackValue()
-numComments=5
+comment5.params=dmg
+comment5.target=void\ chivalrousNature(int)
+numComments=6

@@ -27,7 +27,6 @@ public class Jonathan extends JoJo
         System.out.println("Go Yellow Hamon OVERDRIVE!!!");
         System.out.println("Fwish");
         target.takeDamage(damage);
-
     }
 
     public int getLife()
@@ -38,5 +37,12 @@ public class Jonathan extends JoJo
     public int getAttackValue()
     {
         return damage;
+    }
+    
+    public void chivalrousNature(int dmg)
+    {
+        super.takeDamage(dmg);
+        System.out.println("His remaining health is: " + this.getHitpoints());
+        System.out.println("Jonathan takes the attack for himself, protecting his allies.");
     }
 }
