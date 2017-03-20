@@ -26,6 +26,8 @@ public class ZaStand extends ArakiNoJishin
     public void attack(Enemy target)
     {
         target.takeDamage(dmg);
+        weapon.attack();
+        weapon.getLife();
     }
     
     public int getDmg()

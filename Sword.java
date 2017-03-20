@@ -8,12 +8,9 @@
 import java.lang.Math;
 import java.util.ArrayList;
 public class Sword extends Weapon{
-    //int dur= (int) (Math.random()*100+1);
-    //int atk= (int) ((Math.random()*100+1)/2);
     public Sword(int life)
     {
         super(life, 50);
-
     }
     
     public boolean parry()

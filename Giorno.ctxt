@@ -1,14 +1,14 @@
 #BlueJ class context
 comment0.params=hp\ atk
-comment0.target=Joseph(int,\ int)
+comment0.target=Giorno(int,\ int)
 comment1.params=dmg
 comment1.target=void\ takeDamage(int)
 comment2.params=target
 comment2.target=void\ attack(Character)
 comment3.params=
-comment3.target=int\ getAttackValue()
+comment3.target=int\ getLife()
 comment4.params=
-comment4.target=int\ getLife()
-comment5.params=
-comment5.target=void\ hamonClackers()
+comment4.target=int\ getAttackValue()
+comment5.params=target
+comment5.target=void\ theAbilityToGiveLife(ArakiNoJishin)
 numComments=6

@@ -18,9 +18,9 @@ public class Jotaro extends JojoStandUsers
 
     public void takeDamage(int dmg)
     {
-        System.out.println("The enemy is hurt, they give you a menacing glance");
+        System.out.println("You are hurt, you give the enemy a menacing glance");
         super.takeDamage(dmg);
-        System.out.println("Za enemy's remaining health is: " + this.getHitpoints());
+        System.out.println("Your remaining health is: " + this.getHitpoints());
     }
 
     public void attack(Character target)
